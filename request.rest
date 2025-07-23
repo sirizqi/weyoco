@@ -1,0 +1,30 @@
+### Create a new campaign
+POST http://localhost:5000/api/campaigns
+Content-Type: application/json
+
+{
+  "title": "Assigment Campaign",
+  "objective": "Create awareness and collect leads",
+  "status": "active",
+  "startDate": "2025-08-01",
+  "endDate": "2025-08-15"
+}
+
+### Get all campaigns
+GET http://localhost:5000/api/campaigns
+
+### Get campaign by ID
+GET http://localhost:5000/api/campaigns/id
+
+### Update a campaign
+PUT http://localhost:5000/api/campaigns/id
+Content-Type: application/json
+
+{
+  "status": "active",
+  "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "title": "Updated Campaign Title",
+}
+
+### Delete a campaign
+DELETE http://localhost:5000/api/campaigns/id
