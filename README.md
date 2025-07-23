@@ -6,7 +6,7 @@ A simple and scalable REST API built with **Node.js**, **Express.js**, and **Mon
 
 ## 🚀 Features
 
-- ✅ Create, Read, Update, Delete campaigns
+- ✅ Create, Read, Update, Delete campaigns (CRUD)
 - 🧠 MongoDB Atlas for cloud-ready scalability
 - ⚙️ RESTful structure with clean MVC pattern
 - 🔐 Environment config using `.env`
@@ -16,11 +16,11 @@ A simple and scalable REST API built with **Node.js**, **Express.js**, and **Mon
 
 ## 📁 Folder Structure
 campaign-crud-api/<br>
-├── controllers/ # API logic<br>
-├── models/ # Mongoose schemas<br>
-├── routes/ # API endpoints<br>
-├── app.js # App entry point<br>
-├── .env # Environment secrets (excluded from git)<br>
+├── controllers/<br>
+├── models/<br>
+├── routes/<br>
+├── app.js<br>
+├── .env<br>
 ├── .gitignore<br>
 ├── package.json<br>
 └── README.md<br>
@@ -43,7 +43,7 @@ npm install
 ```
 
 ### 3. Configure Environment
-Create a .env file in the root directory:
+Create a `.env` file in the root directory:
 ```bash
 MONGO_URI=mongodb+srv://<user>:<password>@cluster0.mongodb.net/campaignDB?retryWrites=true&w=majority
 PORT=5000
@@ -57,11 +57,11 @@ npm run dev
 📬 API Endpoints
 |Method|Endpoint|Description|
 |---|---|---|
-|GET|/api/campaigns|Get all campaigns|
-|GET|/api/campaigns/:id|Get campaign by ID|
-|POST|/api/campaigns|Create a new campaign|
-|PUT|/api/campaigns/:id|Update a campaign|
-|DELETE|/api/campaigns/:id|Delete a campaign|
+|GET|`/api/campaigns`|Get all campaigns|
+|GET|`/api/campaigns/:id`|Get campaign by ID|
+|POST|`/api/campaigns`|Create a new campaign|
+|PUT|`/api/campaigns/:id`|Update a campaign|
+|DELETE|`/api/campaigns/:id`|Delete a campaign|
 
 Sample POST request body:
 
