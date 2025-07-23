@@ -58,12 +58,13 @@ npm run dev
 ```
 
 📬 API Endpoints
-Method|Endpoint|Description
-GET|/api/campaigns|Get all campaigns
-GET|/api/campaigns/:id|Get campaign by ID
-POST|/api/campaigns|Create a new campaign
-PUT|/api/campaigns/:id|Update a campaign
-DELETE|/api/campaigns/:id|Delete a campaign
+|Method|Endpoint|Description|
+|---|---|---|
+|GET|/api/campaigns|Get all campaigns|
+|GET|/api/campaigns/:id|Get campaign by ID|
+|POST|/api/campaigns|Create a new campaign|
+|PUT|/api/campaigns/:id|Update a campaign|
+|DELETE|/api/campaigns/:id|Delete a campaign|
 
 Sample POST request body:
 
