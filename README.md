@@ -16,18 +16,15 @@ A simple and scalable REST API built with **Node.js**, **Express.js**, and **Mon
 
 ## 📁 Folder Structure
 campaign-crud-api/
-├── controllers/ # API logic
-├── models/ # Mongoose schemas
-├── routes/ # API endpoints
-├── app.js # App entry point
-├── .env # Environment secrets (excluded from git)
-├── .gitignore
-├── package.json
-└── README.md
+├── controllers/ # API logic<br>
+├── models/ # Mongoose schemas<br>
+├── routes/ # API endpoints<br>
+├── app.js # App entry point<br>
+├── .env # Environment secrets (excluded from git)<br>
+├── .gitignore<br>
+├── package.json<br>
+└── README.md<br>
 
-yaml
-Copy
-Edit
 
 ---
 
